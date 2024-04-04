@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Эльдар Шарипов](https://up.htmlacademy.ru/htmlcss-individual/1/user/2509853).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Зиновьев](https://htmlacademy.ru/profile/id198751).
 
 ---
 
