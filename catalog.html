@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+
+  </head>
+
+  <body>
+
+
+    <header class="page-header">
+
+      <a class="logo-sedona" href="#">
+       <img class="logo" src="#" alt="логотип Седоны">
+      </a>
+
+      <nav class="navigation">
+
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" >Гостиницы</a>
+          </li>
+        </ul>
+
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visualli-hidden">поиск</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visualli-hidden">избранное</span>
+            </a>
+          </li>
+        </ul>
+
+        <button class="button" type="button">Хочу сюда!</button>
+
+      </nav>
+
+    </header>
+
+    <main class="inner">
+
+      <Section  class="catalog">
+
+        <header class="catalog-inner">
+
+          <h1 class="catalog-inner-title">Гостиницы Седоны</h1>
+
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="index.html">
+                <span class="visualli-hidden">Главная</span>
+              </a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" >Гостиницы</a>
+            </li>
+          </ul>
+
+          <h2 class="visualli-hidden">Список гостиниц с фильтрами</h2>
+
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Парковка" checked="Парковка">
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="wi-fi" checked="wi-fi">
+                  </label>
+                </li>
+              </ul>
+
+            </fieldset>
+          </form>
+          <select class="select-contnrol" aria-label="Сортировка"></select>
+          <a class="button" href="#"></a>
+          <a class="button" href="#"></a>
+          <a class="button" href="#"></a>
+
+        </header>
+
+      </Section>
+
+    </main>
+
+  </body>
