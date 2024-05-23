@@ -15,5 +15,110 @@
 }
 
 body {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background: #F2F2F2;
+  margin: 0;
+}
+
+.page-header{
+  color: #000000;
+  background: #ffffff;
+}
+
+.logo-sedona{
+
+}
+
+.navigation a {
+  color: #000000;
+}
+
+.navigation{
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.button{
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: capuppercase;
+}
+
+.intro{
+  color: #ffffff;
+  background-color: #183c5f5d;
+  background-image: url("../images/intro/white-line.svg"), url("../images/intro/rock-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.advantages{
+  text-align: center;
+}
+
+.advantages-title-sedona-small{
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height:36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.advantages-description-cool{
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height:26px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+
+}
+
+.advantages-item-real-sity{
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.advantages-title{
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  font-size: 24px;
+  line-height:28px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.advantages-description{
+  font-family: "PT Sans", sans-serif;
+  color: #333333;
+  font-size: 18px;
+  line-height:21px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.advantages-item-devil{
+  background-color: #82B3D3;
+  color: #ffffff;
 }
