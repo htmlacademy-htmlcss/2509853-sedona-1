@@ -12,6 +12,7 @@
 
     <body>
 
+      <div class="container">
 
       <header class="page-header">
 
@@ -42,6 +43,7 @@
             <li class="navigation-item">
               <a class="navigation-link" href="#">
                 <span class="visually-hidden">избранное</span>
+                <span class="header-navigation-favorites">12</span>
               </a>
             </li>
           </ul>
@@ -54,7 +56,7 @@
 
       <main class="inner">
 
-        <section  class="catalog">
+        <section  class="filter">
 
           <header class="catalog-inner">
 
@@ -128,33 +130,37 @@
 
             </form>
 
-            <h3 class="hotel-ask">Найдено гостиниц:38</h3>
-
-            <select class="select-contnrol" aria-label="Сортировка">
-              <option value="cheap">Сначала дешёвые</option>
-              <option value="popular">Сначала популярные</option>
-              <option value="expensive">Сначала дорогие</option>
-            </select>
-
-            <ul>
-              <li>
-                 <a class="button" href="#">
-                   <span class="visually-hidden">Мелкий список</span>
-                </a>
-              </li>
-              <li>
-                <a class="button" href="#">
-                  <span class="visually-hidden">Крупный список</span>
-                </a>
-              </li>
-              <li>
-                <a class="button" href="#">
-                  <span class="visually-hidden">Таблица</span>
-                </a>
-              </li>
-            </ul>
-
           </header>
+
+        </section>
+
+        <section class="catalog">
+
+          <h3 class="hotel-ask">Найдено гостиниц:38</h3>
+
+          <select class="select-contnrol" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="popular">Сначала популярные</option>
+            <option value="expensive">Сначала дорогие</option>
+          </select>
+
+          <ul>
+            <li>
+              <a class="button" href="#">
+                <span class="visually-hidden">Мелкий список</span>
+              </a>
+            </li>
+            <li>
+              <a class="button" href="#">
+                <span class="visually-hidden">Крупный список</span>
+              </a>
+            </li>
+            <li>
+              <a class="button" href="#">
+                <span class="visually-hidden">Таблица</span>
+              </a>
+            </li>
+          </ul>
 
           <ul class="hotel-list">
             <li class="hotel-card">
@@ -283,6 +289,8 @@
         </a>
 
       </footer>
+
+      </div>
 
     </body>
   </html>
