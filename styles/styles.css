@@ -244,3 +244,12 @@ body {
   font-weight: 700;
   background-color:#82B3D3;
 }
+
+.filter{
+  color: #ffffff;
+  background-color: #183c5f5d;
+  background-image: url("../images/background/background2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
