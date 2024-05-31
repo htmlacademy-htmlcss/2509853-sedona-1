@@ -281,3 +281,18 @@ body {
   font-weight: 400;
   text-decoration: none;
 }
+
+.apply {
+  font-size: 16px;
+  line-height:21px;
+  font-weight: 400;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+}
+
+.reset {
+  font-size: 16px;
+  line-height:21px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
