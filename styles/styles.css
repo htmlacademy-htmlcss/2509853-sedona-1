@@ -245,11 +245,39 @@ body {
   background-color:#82B3D3;
 }
 
-.filter{
+.filter {
   color: #ffffff;
   background-color: #183c5f5d;
   background-image: url("../images/background/background2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+}
+
+.filter-inner-title {
+  font-size: 60px;
+  line-height:78px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.breadcrumbs-itemv{
+  font-size: 16px;
+  line-height:21px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.filter-title {
+  font-size: 20px;
+  line-height:24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.filter-item {
+  font-size: 18px;
+  line-height:23px;
+  font-weight: 400;
+  text-decoration: none;
 }
