@@ -14,10 +14,21 @@
   font-display: swap;
 }
 
-.container{
-  background-color: #ffffff;
-  width: 1200px;
-  margin: 0 auto;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.html {
+  height: 100%;
 }
 
 body {
@@ -27,11 +38,32 @@ body {
   color: #333333;
   background: #F2F2F2;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
+
+
+.container{
+  background-color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 
 .page-header{
   color: #000000;
   background: #ffffff;
+  width: 1200px;
+  display: flex;
+}
+
+.navigation-container {
+  display: flex;
+  width: 1200px;
+}
+
+.logo-sedona {
+  width: 138px;
 }
 
 .navigation a {
@@ -48,13 +80,27 @@ body {
   background-color: #ffffff;
   text-decoration: none;
   text-transform: capitalize;
+  display: flex;
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  display: flex;
+}
+
+.ask-container {
+  width: 290px;
+  margin-left: auto;
 }
 
 .navigation .navigation-link {
   text-decoration: none;
 }
 
-.button{
+.button {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -66,12 +112,17 @@ body {
   text-transform: uppercase;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
 .intro{
   color: #ffffff;
   background-color: #183c5f;
   background-image: url("../images/intro/white-line.svg"), url("../images/intro/rock-background.jpg");
   background-repeat: no-repeat;
   background-position: center bottom, center;
+  background-size: 1200px, cover;
 }
 
 .advantages{
@@ -93,7 +144,6 @@ body {
   line-height:26px;
   font-weight: 400;
   text-decoration: none;
-
 }
 
 .real-sity{
@@ -211,6 +261,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  background-size: cover;
 }
 .newsletter-title {
   font-size: 30px;
