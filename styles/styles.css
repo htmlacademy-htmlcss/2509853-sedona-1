@@ -84,6 +84,7 @@ body {
   text-transform: capitalize;
   display: flex;
   width: 1000px;
+  height: 64px;
   margin-left: auto;
 }
 
@@ -131,6 +132,7 @@ body {
   background-size: 1200px, cover;
   width: 1200px;
   height: 485px;
+  margin: auto;
 }
 
 .advantages{
@@ -147,6 +149,9 @@ body {
   text-transform: uppercase;
   width: 620px;
   height: 72px;
+  margin: auto;
+  margin-top: 69px;
+  margin-bottom: 25px;
 }
 
 .advantages-description-cool{
@@ -156,7 +161,8 @@ body {
   text-decoration: none;
   width: 651px;
   height: 26px;
-  text-align: center;
+  margin: auto;
+  margin-bottom: 69px;
 }
 
 .real-sity{
