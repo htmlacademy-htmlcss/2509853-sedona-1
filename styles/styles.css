@@ -64,6 +64,7 @@ body {
 
 .logo-sedona {
   width: 138px;
+  height: 64px;
   margin-left: 70px;
   margin-right: 30px;
 }
@@ -132,9 +133,15 @@ body {
   background-size: 1200px, cover;
   width: 1200px;
   height: 485px;
-  margin: auto;
+  margin: 0 auto;
+  display: block;
 }
 
+.intro-welcome {
+  margin: 0 auto;
+  display: block;
+  padding-top: 51px;
+}
 .advantages{
   text-align: center;
 }
