@@ -222,6 +222,15 @@ body {
   text-align: center;
 }
 
+.services-list {
+  display: flex;
+  list-style: none;
+}
+
+.services-item {
+  padding: 80px 85px;
+}
+
 .services-title {
   font-size: 30px;
   line-height:36px;
@@ -262,6 +271,7 @@ body {
 
 .appointment {
   text-align: center;
+  padding: 96px 304px;
 }
 
 .appointment-title {
@@ -288,6 +298,7 @@ body {
   background-position: center;
   text-align: center;
   background-size: cover;
+  padding: 96px 258px 104px 258px;
 }
 .newsletter-title {
   font-size: 30px;
@@ -302,6 +313,23 @@ body {
   line-height:26px;
   font-weight: 400;
   text-decoration: none;
+}
+
+.page-footer {
+ display: flex;
+ gap: 20px;
+ padding: 0 70px;
+ text-transform: uppercase;
+ text-align: center;
+}
+
+.footer-social-list {
+  display: flex;
+  margin-right: auto;
+}
+
+.logo-htmlacademy {
+  margin-left: auto;
 }
 .field {
   color: #000000;
