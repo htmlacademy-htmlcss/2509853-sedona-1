@@ -85,9 +85,6 @@ body {
   display: flex;
 }
 
-.navigation-item {
-  padding: 20px 16px;
-}
 .navigation-user {
   margin-left: auto;
 }
@@ -100,6 +97,7 @@ body {
 
 .navigation .navigation-link {
   text-decoration: none;
+  padding: 20px 16px;
 }
 
 .button {
@@ -154,6 +152,9 @@ body {
   margin: 0 0 25px;
 }
 
+.advantages-container {
+  padding: 103px 85px;
+}
 .advantages-description-cool{
   font-size: 22px;
   line-height:26px;
@@ -173,13 +174,6 @@ body {
   display: flex;
 }
 
-.advantages-container {
-  padding: 102px 85px;
-}
-
-.advantages-block {
-  padding: 103px 85px;
-}
 .real-sity .advantages-title{
   background-color: #82B3D3;
   color: #ffffff;
@@ -203,19 +197,22 @@ body {
 }
 
 .spider {
-  display: flex;
+ display: flex;
 }
 
 .small-area{
   background-color: rgba(131, 179, 211, 0.12);
+  padding: 103px 85px;
 }
 
 .beautiful-road{
   background-color:rgba(131, 179, 211, 0.20) ;
+  padding: 103px 85px;
 }
 
 .few-tourists{
   background-color: rgba(131, 179, 211, 0.12);
+  padding: 103px 85px;
 }
 
 .services {
