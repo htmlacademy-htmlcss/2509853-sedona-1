@@ -138,6 +138,16 @@ body {
   list-style: none;
 }
 
+.spider {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-z {
+  display: flex;
+  padding: 103px 85px;
+  flex-direction: row;
+}
+
 .siti-small {
   padding: 69px 70px;
 }
@@ -196,23 +206,16 @@ body {
   margin: 0;
 }
 
-.spider {
- display: flex;
-}
-
 .small-area{
-  background-color: rgba(131, 179, 211, 0.12);
-  padding: 103px 85px;
+
 }
 
 .beautiful-road{
   background-color:rgba(131, 179, 211, 0.20) ;
-  padding: 103px 85px;
 }
 
 .few-tourists{
   background-color: rgba(131, 179, 211, 0.12);
-  padding: 103px 85px;
 }
 
 .services {
